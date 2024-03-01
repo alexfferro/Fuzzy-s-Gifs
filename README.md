@@ -18,7 +18,10 @@ Caso a API_KEY já tenha expirado, deve seguir os seguintes passos:
 Em seguida, iremos clonar o projeto :
 
 no terminal digite :
-[git clone https://github.com/alexfferro/Fuzzy-s-Gifs.git] -> Clona o meu repositorio do GitHub
-[cd Fuzzy-s-Gifs] -> Entra na pasta
-[npm install] -> Necessário para instalar as dependências necessárias para rodar o App
-[npm run dev] -> Com esse comando, o Vite irá criar uma espécie de Servidor no localhost.
+
+```
+git clone https://github.com/alexfferro/Fuzzy-s-Gifs.git
+cd Fuzzy-s-Gifs
+npm install
+npm run dev
+```
