@@ -1,30 +1,24 @@
-# React + TypeScript + Vite
+# App Fuzzy's Gifs
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Sobre
 
-Currently, two official plugins are available:
+Projeto iniciado com Vite, escolhendo a opção de React + TypeScript.
+API escolhida [GHIPY], uma particularidade é que para ter acesso a API é necessário criar uma conta
+e gerar uma API_KEY.
+Foi gerado uma gratuita e que limitações quanto ao uso dos recursos.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Caso a API_KEY já tenha expirado, deve seguir os seguintes passos: 
+1. Entrar no site [https://developers.giphy.com/]
+2. Criar uma conta
+3. Ir na Opção "Create an APP"
+4. Selecionar API e dar next
+5. Dar nome ao App (Um nome que facilite identificar o projeto)
+6. Feito isso, a API_KEY será gerada
 
-## Expanding the ESLint configuration
+Em seguida, iremos clonar o projeto :
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+no terminal digite :
+[git clone https://github.com/alexfferro/Fuzzy-s-Gifs.git] -> Clona o meu repositorio do GitHub
+[cd Fuzzy-s-Gifs] -> Entra na pasta
+[npm install] -> Necessário para instalar as dependências necessárias para rodar o App
+[npm run dev] -> Com esse comando, o Vite irá criar uma espécie de Servidor no localhost.
