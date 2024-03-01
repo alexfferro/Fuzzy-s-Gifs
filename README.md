@@ -3,7 +3,7 @@
 ### Sobre
 
 Projeto iniciado com Vite, escolhendo a opção de React + TypeScript.
-API escolhida [GHIPY], uma particularidade é que para ter acesso a API é necessário criar uma conta
+API escolhida [GIPHY], uma particularidade é que para ter acesso a API é necessário criar uma conta
 e gerar uma API_KEY.
 Foi gerado uma gratuita e que limitações quanto ao uso dos recursos.
 
@@ -25,3 +25,4 @@ cd Fuzzy-s-Gifs
 npm install
 npm run dev
 ```
+No caso citado acima, caso a API_KEY tenha expirado, deve ir no componente `GiphyGrid` e substituir a constante API_KEY para a nova API_KEY Criada no site do GIPHY.
